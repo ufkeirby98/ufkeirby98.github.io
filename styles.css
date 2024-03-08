@@ -1,0 +1,98 @@
+﻿body{
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+/* Блок со всем контентом */
+.everything-container{
+    width: 1000px;
+    margin: 0 auto; /*Отцентровать по горизонтали*/
+    box-shadow: 7px 7px 3px lightgrey;
+}
+
+
+/* Шапка */
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(108, 149, 202);
+}
+.header a{ /*Ссылка в шапке*/
+    padding: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Calibri;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{ /*Наведение на ссылку в шапке*/
+    color: greenyellow;
+}
+
+
+/* Элемент с боковым меню и контентом в одну строку */
+.sidebar-and-content{
+    /* Расположить боковое меню и главный блок на одной строке */
+    display: flex; 
+}
+
+
+/* Боковое меню */
+.sidebar{
+    width: 200px;
+    padding: 10px;
+    padding-top: 25px;
+    background-color: rgb(83, 173, 228);
+}
+.sidebar img{ /* Картинка в боковом меню */
+    width: 180px;
+    margin-bottom: 7px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+
+/* Главный контент */
+.content{
+    width: 800px;
+    min-height: 490px;
+    padding: 25px;
+    background-color: #bfeaf8;
+}
+
+
+/* Подвал */
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-family: calibri;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(108, 149, 202);
+}
+
+
+/* Стили текста */
+h1{ /* Заголовок 1 */
+    margin-top: 0;
+}
+h3{ /* Заголовок 3 */
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+/* Список */
+ul{
+    padding-left: 18px;
+    margin-top: 35px;
+}
+ul li{
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+/* Параграфы в таблице */
+table p{
+    padding-left: 15px;
+}

@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Новостной сайт</title>
+</head>
+<body>
+    <!-- Блок со всем сайтом -->
+    <div class="everything-container">
+        <!-- Шапка -->
+        <div class="header">
+            <a href="index.html">Главная</a>
+            <a href="news.html">Новости</a>
+            <a href="registration.html">Регистрация</a>
+        </div>
+
+        <!-- Боковое меню и контент -->
+        <div class="sidebar-and-content">
+            <div class="sidebar">
+                <a href="http://belwest.ru"> <img src="https://irecommend.ru/sites/default/files/product-images/2074/bezymyannyy2.jpg"> </a>
+                <a href="http://milka.ru"> <img src="https://m.media-amazon.com/images/I/71KtAi9WMtL._AC_UL320_.jpg"> </a>
+                <a href="http://google.com"> <img src="https://sun9-34.userapi.com/c633918/v633918439/43d09/aFY7Wf0b2ow.jpg"> </a>
+                <a href="http://www.kinopoisk.ru/name/37859/"> <img src="https://yablor.ru/media/images/top/preview/exlerrufilmsimages02-09-2013big34.jpg"> </a>
+                <a href="http://www.lamoda.ru/"> <img src="https://72.img.avito.st/640x480/6335412672.jpg"> </a>
+            </div>
+
+            <div class="content"> 
+                <h1>Регистрация</h1>
+                <p>
+                    Зарегистрируйтесь, чтобы получать свежие новости.
+                </p>
+
+                <form>
+                    Логин <br>
+                    <input type="text" name="login"> <br><br>
+
+                    Почта <br>
+                    <input type="text" name="mail"> <br><br>
+
+                    Желаемые новости для получения: <br>
+                    <input type="checkbox" name="news" value="1"> Юмор <br>
+                    <input type="checkbox" name="news" value="2"> Спорт <br>
+                    <input type="checkbox" name="news" value="3"> Искусство <br>
+                    <input type="checkbox" name="news" value="4"> Политика <br>
+                    <br>
+                    
+                    Пол (для статистики): <br>
+                    <input type="radio" name="pol" value="1"> Мужской <br>
+                    <input type="radio" name="pol" value="2"> Женский <br>
+                    <input type="radio" name="pol" value="3"> Не скажу <br>
+                    <br>
+
+                    Откуда узнали о нас: <br>
+                    <select name="otkuda">
+                        <option value="1">Прислали ссылку на новость</option>
+                        <option value="2">Нашел в поисковике</option>
+                        <option value="3">Из рекламы</option>
+                        <option value="4">Другое</option>
+                    </select>
+                    <br><br>
+
+                    О себе: <br>
+                    <textarea name="about" cols="30" rows="3"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Зарегистрироваться"> 
+                    <input type="reset" value="Отменить">
+
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Подвал -->
+        <div class="footer">
+            Новости © 2023
+        </div>
+    </div>
+</body>
+</html>
